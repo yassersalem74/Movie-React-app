@@ -52,7 +52,7 @@ function App() {
     <div>
       <NavBar search={search} />
       <Container>
-        <BrowserRouter>
+        <BrowserRouter basename="/Movie-React-app">
           <Routes>
             <Route path="/"  element={<MoviesList movies={movies} getPage={getPage}  pageCount={pageCount}  /> } />
             {/* // (:) => thats variable */}
