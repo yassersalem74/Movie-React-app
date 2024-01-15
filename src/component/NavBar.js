@@ -16,7 +16,7 @@ const NavBar = ({ search }) => {
       <Container>
         <Row className="pt-2 d-flex justify-content-between">
           <Col xs="2" lg="1">
-            <a href="/">
+            <a href="/Movie-React-app">
               <img className="logo" src={logo} alt="dfs" />
             </a>
           </Col>
